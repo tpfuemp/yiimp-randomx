@@ -341,8 +341,8 @@ int main(int argc, char **argv)
 	pthread_t thread2;
 	pthread_create(&thread2, NULL, stratum_thread, NULL);
 
-        printf("initializing randomx vm...");
-        randomx_init();
+        // printf("initializing randomx vm...");
+        // randomx_init();
 
 	while(!g_exiting)
 	{

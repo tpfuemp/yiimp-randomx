@@ -22,7 +22,7 @@ SOURCES+= randomx.cpp RandomX/src/aes_hash.cpp RandomX/src/argon2_ref.c RandomX/
 	RandomX/src/randomx.cpp RandomX/src/superscalar.cpp RandomX/src/vm_compiled.cpp RandomX/src/vm_interpreted_light.cpp                 \
 	RandomX/src/argon2_core.c RandomX/src/blake2_generator.cpp RandomX/src/instructions_portable.cpp RandomX/src/reciprocal.c            \
 	RandomX/src/virtual_machine.cpp RandomX/src/vm_compiled_light.cpp RandomX/src/blake2/blake2b.c RandomX/src/jit_compiler_x86.cpp      \
-	RandomX/src/jit_compiler_x86_static.S
+	RandomX/src/jit_compiler_x86_static.S rxmonero/rx-slow-hash.c
 
 CFLAGS += -DHAVE_CURL
 SOURCES += rpc_curl.cpp

@@ -22,11 +22,13 @@
 
 #include <iostream>
 #include <vector>
+#include <cassert>
 
 using namespace std;
 
 #include "iniparser/src/iniparser.h"
 #include "randomx.h"
+#include "rxmonero/hash-ops.h"
 #include "json.h"
 #include "util.h"
 
